@@ -1,0 +1,18 @@
+What is java?
+Ans: Java is a high-level, object-oriented programming language used to develop software applications, websites, and mobile applications.
+->It is simple, secure, and platform-independent, which means Java programs can run on different operating systems without changing the code.
+
+Why was Java created?
+1991- Green Project- James Gosling and a small team at Sun Microsystems started exploring software for consumer devices.
+1991 – Named "Oak"- The new language was named after an oak tree outside Gosling's office.
+1992 – Star7 Demo- A handheld prototype called Star7 demonstrated Oak's capabilities on custom hardware.
+1995 – Renamed Java- Oak was renamed Java because the name Oak was already trademarked.
+1996 – JDK 1.0- First official release of Java (JDK 1.0).
+
+The Problem
+Devices used different chips and operating systems.
+C/C++ programs had to be recompiled — often rewritten — for each device.
+The Idea: Write Once, Run Anywhere (WORA)
+Java introduced platform independence.
+A Java program can be written once and run on different platforms without rewriting the code for each platform.
+Note: The bottom-right explanation in the photograph is partially hidden, so only the readable content is included.
