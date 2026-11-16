@@ -18,4 +18,4 @@ A Java program can be written once and run on different platforms without rewrit
 Note: The bottom-right explanation in the photograph is partially hidden, so only the readable content is included.
 
 
-**Java 1.0:**
+*Java 1.0:*
