@@ -111,3 +111,13 @@ nextBoolean()         true                   Boolean
 Primitive data types: int, char, long, double.....
 Non primitive data types: String, arrays, interface....
 
+
+
+Operators:
+1.Arthematic operators:
+  Operator     Symbol
+  Addition       +
+  Subtracting    -
+  Multiplication *
+  Division       /
+  Percentage     %
