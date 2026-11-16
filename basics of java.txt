@@ -26,3 +26,12 @@ Java Evolution
 - Generics, annotations, enums.
 - Enhanced for-loop.
 
+
+
+Variable rules:
+1. it should not be start with numeric values.
+2. It shouldn't have the whitespaces.
+3. it doesn't start with special charcters.
+
+Data Types:
+int age
