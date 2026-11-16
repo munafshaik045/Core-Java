@@ -18,4 +18,11 @@ A Java program can be written once and run on different platforms without rewrit
 Note: The bottom-right explanation in the photograph is partially hidden, so only the readable content is included.
 
 
-*Java 1.0:*
+Java Evolution
+1. Java 1.0 (Jan 1996)
+- JVM, core libraries, applets.
+- Introduced the concept of "Write Once, Run Anywhere (WORA)."
+2. Java 5 (2004)
+- Generics, annotations, enums.
+- Enhanced for-loop.
+
