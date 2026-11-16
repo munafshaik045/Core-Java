@@ -19,12 +19,35 @@ Note: The bottom-right explanation in the photograph is partially hidden, so onl
 
 
 Java Evolution
-1. Java 1.0 (Jan 1996)
-- JVM, core libraries, applets.
-- Introduced the concept of "Write Once, Run Anywhere (WORA)."
-2. Java 5 (2004)
-- Generics, annotations, enums.
-- Enhanced for-loop.
+1995 – Java 1.0
+Java was officially introduced.
+It introduced the principle "Write Once, Run Anywhere" (WORA).
+It provided platform independence through the Java Virtual Machine (JVM).
+
+1998 – Java 2 (Java 1.2)
+Introduced the Collections Framework.
+Improved graphical user interface development using Swing.
+Strengthened Java for enterprise applications.
+
+2004 – Java 5
+Introduced Generics, Annotations, and Enumerations.
+Added enhanced for-loops.
+Made Java programming more efficient and readable.
+
+2006 – Java 6
+Improved performance and stability.
+Enhanced web services support.
+Open-source development of Java gained momentum.
+
+2011 – Java 7
+Introduced try-with-resources.
+Added the diamond operator.
+Improved exception handling and file operations.
+
+2014 – Java 8
+Introduced Lambda Expressions.
+Added the Stream API.
+Introduced functional programming features.
 
 
 
@@ -33,5 +56,3 @@ Variable rules:
 2. It shouldn't have the whitespaces.
 3. it doesn't start with special charcters.
 
-Data Types:
-int age
