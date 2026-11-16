@@ -51,10 +51,47 @@ Introduced functional programming features.
 
 
 
-Variable rules:
-1. it should not be start with numeric values.
-2. It shouldn't have the whitespaces.
-3. it doesn't start with special charcters.
+**Variable Declaration in Java**
+
+A variable is a named memory location used to store data in a program.
+
+Syntax:
+
+"data_type variable_name = value;"
+
+Example:
+
+int age = 20;
+float marks = 85.5f;
+char grade = 'A';
+
+Rules for Variable Declaration in Java
+
+1. Variable names must begin with a letter, underscore (_) or dollar sign ($).
+2. Variable names cannot start with a digit.
+3. Spaces are not allowed in variable names.
+4. Java keywords cannot be used as variable names.
+5. Variable names are case-sensitive.
+6. Variable names can contain letters, digits, underscores and dollar signs.
+7. A variable must be declared with a data type before use.
+8. Meaningful variable names should be used for better readability.
+
+**Valid Variable Names:**
+
+int age;
+int studentName;
+int _number;
+int $salary;
+int marks1;
+
+**Invalid Variable Names:**
+
+int 1age;       // Starts with digit
+int student name; // Contains space
+int class;      // Java keyword
+
+**Conclusion:**
+Variable declaration defines the name and data type of a variable. Following declaration rules helps write correct and readable Java programs.
 
 
 Method Explanation:
