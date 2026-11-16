@@ -16,3 +16,6 @@ The Idea: Write Once, Run Anywhere (WORA)
 Java introduced platform independence.
 A Java program can be written once and run on different platforms without rewriting the code for each platform.
 Note: The bottom-right explanation in the photograph is partially hidden, so only the readable content is included.
+
+
+**Java 1.0:**
