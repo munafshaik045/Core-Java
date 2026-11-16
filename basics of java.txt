@@ -56,3 +56,21 @@ Variable rules:
 2. It shouldn't have the whitespaces.
 3. it doesn't start with special charcters.
 
+
+Method Explanation:
+Scanner Method       Example               Return Type
+nextInt()             25                     int
+nextLong()            9876543210L            long
+nextFloat()           85.5f                  float
+nextDouble()          25000.75               double
+next()                Venu                   String
+nextLine()            Hello Java             String
+next().charAt(0)      A                      char
+nextBoolean()         true                   Boolean
+
+
+
+
+Primitive data types: int, char, long, double.....
+Non primitive data types: String, arrays, interface....
+
