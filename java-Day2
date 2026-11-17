@@ -11,7 +11,7 @@ Types:
 2. if-else statement:
   if(condition){statement}else{statement}
 3. else-if ladder
-  if(condition1){statement}else if(condition2){statement}else{statement}
+  if(condition1){statement}else if(condition2){statement}....else{statement}
 4. Nested if statement
   if(condition1){ if(condition2){statement}}
 5. switch statement
