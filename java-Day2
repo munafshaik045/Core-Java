@@ -1,1 +1,32 @@
+Control Statements in Java
+Control statements are used to control the flow of execution of a program. They determine the order in which statements are executed.
 
+Control statements are mainly classified into three types:
+1. Conditional Statements (Decision-Making Statements)
+Conditional statements are used to execute a block of code based on a given condition.
+
+Types:
+1. if statement
+2. if-else statement
+3. else-if ladder
+4. Nested if statement
+5. switch statement
+
+
+2. Looping / Iterative Statements
+Looping statements are used to execute a block of code repeatedly until a given condition becomes false.
+
+Types:
+1. for loop
+2. while loop
+3. do-while loop
+4. Enhanced for loop (for-each)
+
+
+3. Jumping Statements
+Jumping statements are used to transfer the control of execution from one part of a program to another.
+
+Types:
+1. break – Terminates a loop or switch statement.
+2. continue – Skips the current iteration and moves to the next iteration.
+3. return – Terminates the current method and optionally returns a value.
