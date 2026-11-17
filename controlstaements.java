@@ -20,7 +20,8 @@ public class controlstaements{
 		}else{
 			System.out.println("Else is printing");
 		}*/
-		/*System.out.println("=====**week calender**=====");
+		/*//week days
+		System.out.println("=====**week calender**=====");
 		System.out.print("Enter a number(1-7): ");
 		int b=sc.nextInt();
 		System.out.println("=====**=====**=====");
@@ -50,7 +51,8 @@ public class controlstaements{
 			System.out.println("Enter Correct value");
 			break;
 		}*/
-		/*System.out.println("=====**Months**=====");
+		/*//months 
+		System.out.println("=====**Months**=====");
 		System.out.print("Enter a month number: ");
 		int c=sc.nextInt();
 		System.out.println("=====**=====**=====");
@@ -94,7 +96,8 @@ public class controlstaements{
 			System.out.println("Enter Correct value");
 			break;
 		}*/
-		/*System.out.println("=====**dept**=====");
+		/*//departmesnts by code
+		System.out.println("=====**dept**=====");
 		System.out.print("Enter a department code: ");
 		int d=sc.nextInt();
 		System.out.println("=====**=====**=====");
@@ -148,7 +151,8 @@ public class controlstaements{
 			System.out.println("Enter Correct value");
 			break;
 		}*/
-		/*System.out.println("=====**Calculator**=====");
+		/*//calculator
+		System.out.println("=====**Calculator**=====");
 		System.out.print("Enter a oeration(+,-,*,/): ");
 		char op=sc.next().charAt(0);
 		System.out.print("Enter first number: ");
@@ -173,13 +177,46 @@ public class controlstaements{
 			System.out.println("Enter valid operator..!");
 			break;
 		}*/
+		/*//Printing required table
 		System.out.println("=====**=======****=======**=====");
 		System.out.println("=====**Looping Statements**=====");
 		System.out.print("Enter a number to print table: ");
 		int t=sc.nextInt();
 		for(int i=1;i<=10;i++){
 			System.out.println(t+" * "+i+" = "+(t*i));
+		}*/
+		/*//printing 40 tables
+		for(int j=1;j<=40;j++){
+			System.out.println("Table "+j+" is started\n");
+			for(int i=1;i<=10;i++){
+				System.out.println(j+" * "+i+" = "+(j*i));
+			}
+			System.out.println("\nTable "+j+" is completed\n");
+			System.out.println("\n---------------------\n");
+		}*/
+		//Odd and Even tables
+		System.out.println("Odd Tables: \n");
+		for(int j=1;j<=40;j++){
+			if(j%2!=0){
+			System.out.println("Table "+j+" is started\n");
+			for(int i=1;i<=10;i++){
+				System.out.println(j+" * "+i+" = "+(j*i));
+			}
+			System.out.println("\nTable "+j+" is completed\n");
+			System.out.println("\n---------------------\n");
 		}
-		
+		}
+		System.out.println("\n\n");
+		System.out.println("Even Tables: \n");
+		for(int j=1;j<=40;j++){
+			if(j%2==0){
+				System.out.println("Table "+j+" is started\n");
+				for(int i=1;i<=10;i++){
+					System.out.println(j+" * "+i+" = "+(j*i));
+				}
+				System.out.println("\nTable "+j+" is completed\n");
+				System.out.println("\n---------------------\n");
+			}
+		}
 	}
 }
