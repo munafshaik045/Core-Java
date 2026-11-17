@@ -1,8 +1,8 @@
-Control Statements in Java
+Control Statements:
 Control statements are used to control the flow of execution of a program. They determine the order in which statements are executed.
 
 Control statements are mainly classified into three types:
-1. Conditional Statements (Decision-Making Statements)
+1. Conditional Statements/Decision-Making Statements
 Conditional statements are used to execute a block of code based on a given condition.
 
 Types:
@@ -30,3 +30,9 @@ Types:
 1. break – Terminates a loop or switch statement.
 2. continue – Skips the current iteration and moves to the next iteration.
 3. return – Terminates the current method and optionally returns a value.
+
+Ternary Operator in Java
+The Ternary Operator (?:) is a conditional operator used to make decisions in a single line. It is a shortcut for the if-else statement.
+sybtax:
+variable = (condition) ? expression1 : expression2;
+
