@@ -148,7 +148,7 @@ public class controlstaements{
 			System.out.println("Enter Correct value");
 			break;
 		}*/
-		System.out.println("=====**Calculator**=====");
+		/*System.out.println("=====**Calculator**=====");
 		System.out.print("Enter a oeration(+,-,*,/): ");
 		char op=sc.next().charAt(0);
 		System.out.print("Enter first number: ");
@@ -172,6 +172,13 @@ public class controlstaements{
 			default:
 			System.out.println("Enter valid operator..!");
 			break;
+		}*/
+		System.out.println("=====**=======****=======**=====");
+		System.out.println("=====**Looping Statements**=====");
+		System.out.print("Enter a number to print table: ");
+		int t=sc.nextInt();
+		for(int i=1;i<=10;i++){
+			System.out.println(t+" * "+i+" = "+(t*i));
 		}
 		
 	}
