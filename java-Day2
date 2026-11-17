@@ -10,11 +10,11 @@ Types:
   if(condition){statement}
 2. if-else statement:
   if(condition){statement}else{statement}
-3. else-if ladder
+3. else-if ladder:
   if(condition1){statement}else if(condition2){statement}....else{statement}
-4. Nested if statement
+4. Nested if statement:
   if(condition1){ if(condition2){statement}}
-5. switch statement
+5. switch statement:
   switch (val):
   case val1:statement;break;
   case val2:statement;break;
@@ -28,10 +28,15 @@ Types:
 Looping statements are used to execute a block of code repeatedly until a given condition becomes false.
 
 Types:
-1. for loop
-2. while loop
-3. do-while loop
-4. Enhanced for loop (for-each)
+1. for loop:
+  for(initialization; condition; increement/decrement){ststement}
+2. while loop:
+  while(condition){statements}
+3. do-while loop:
+  do{statements}while(condition);
+4. Enhanced for loop (for-each):
+  ->used for arrays
+  for(datatype var:array){ststement}
 
 
 3. Jumping Statements
