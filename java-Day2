@@ -6,11 +6,22 @@ Control statements are mainly classified into three types:
 Conditional statements are used to execute a block of code based on a given condition.
 
 Types:
-1. if statement
-2. if-else statement
+1. if statement:
+  if(condition){statement}
+2. if-else statement:
+  if(condition){statement}else{statement}
 3. else-if ladder
+  if(condition1){statement}else if(condition2){statement}else{statement}
 4. Nested if statement
+  if(condition1){ if(condition2){statement}}
 5. switch statement
+  switch (val):
+  case val1:statement;break;
+  case val2:statement;break;
+  ...
+  default:
+  Statement;
+  break;
 
 
 2. Looping / Iterative Statements
