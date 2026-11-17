@@ -33,6 +33,11 @@ Types:
 
 Ternary Operator in Java
 The Ternary Operator (?:) is a conditional operator used to make decisions in a single line. It is a shortcut for the if-else statement.
-sybtax:
+syntax:
 variable = (condition) ? expression1 : expression2;
 
+
+
+
+What is syntax?
+Syntax is the set of rules and regulations used to write statements in a programming language correctly.
