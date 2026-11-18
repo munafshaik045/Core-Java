@@ -38,8 +38,36 @@ Strings "Java Programming";
 
 System.out.println(s.contains("Java"));
 
-tput: "true"
+output: "true"
 
 8. substring()
 
-extracts a part of a String.
+• Purpose: Extracts a part of a String based on start and end index positions.
+• Code:
+java
+String s = "Programming";
+System.out.println(s.substring(0, 4));
+
+• Output: Prog
+
+
+9. replace()
+
+• Purpose: Replaces specified characters or character sequences with new ones.
+• Code:
+java
+String s = "Java";
+System.out.println(s.replace('a', 'o'));
+
+• Output: Jovo
+
+
+10. trim()
+
+• Purpose: Removes leading (beginning) and trailing (ending) spaces from a string.
+• Example (continuing the pattern cut off at the bottom of the screen):
+java
+String s = "  Java  ";
+System.out.println(s.trim());
+Use code with caution.
+• Output: Java (without the extra spaces around it).g.
