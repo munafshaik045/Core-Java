@@ -12,3 +12,34 @@ eg: String s = "Java";
 • Purpose: Converts all characters in a string into uppercase letters.
   eg: String s = "java";
       System.out.println(s.toUpperCase());
+
+
+6. equalsIgnoreCase()
+
+Compares Strings without considering uppercase or lowercase differences.
+
+java
+
+String a="JAVA";
+
+String b "java";
+
+System.out.println(a.equalsIgnoreCase(b));
+
+Output: true
+
+7. contains()
+
+checks whether a String contains a particular sequence of characters.
+
+Java
+
+Strings "Java Programming";
+
+System.out.println(s.contains("Java"));
+
+tput: "true"
+
+8. substring()
+
+extracts a part of a String.
