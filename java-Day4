@@ -40,6 +40,49 @@
 
 
 
-**String Builders**
+**Types of Classes**
+ 1. Concrete class
+ 2. Abstract class
+ 3. Final class
+ 4. Nested class
+ 5. Inner class
+ 6. 
+ 7. Anonymyous class
+ 8. Enum class
+ 9. Interface
+
+**1.Concrete class:**
+    -A concerete class is a regular class that can be used to create the objects.
+    1.A concrete class is a normal class.
+    2.We can create objects of a concrete class.
+    3.It can contain variables and methods.
+    4.It can contain both static and non-static methods.
+    5.It can extend another class and implement interfaces, provided all required abstract methods are implemented.
+**Constructor:A constructor is a special member of a class that is used to initialize the objects. It is automatically called when an object is created.**
+  types of constuctor:
+  1. paramitarised
+  2. default
+  3. Parameterless
   
+**Access Modifier**
+  1.Public
+  2.Private
+  3.Protected
+  4.Default
+
+**Functions:**
+  1. with parametr with Return Type:
+    -A function that accepts one or more parameters and returns a value after performing an operation is called a function with parameter and return type.
+  2. with parameter without return Type:
+    -A function that accepts one or more parameters but does not return any value is called a function with parameter and without return type. 
+    -In Java, we use the void keyword.
+  3. without parameter with return type:
+    -A function that does not accept any parameters but returns a value after performing an operation is called a function without parameter and with return type.
+  4. without parameter without return type:
+    -A function that does not accept any parameters and does not return any value is called a function without parameter and without return type.
+
+
+
+**2.Abstract class:**
+  -
     
