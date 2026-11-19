@@ -1,0 +1,45 @@
+**Inspect**
+  -Length()
+  -charAt()
+  -isEmpty()
+  -isBlank()
+
+**Extract by Index**
+  -substring(start,end)
+  -indexOf()
+
+**Compare**
+  -s1.equals(s2)
+  -s1.compareTo(s2)
+
+**Find**
+  -contains()
+  -startsWith()
+  -endsWith()
+
+**Transform**
+  -trim()
+  -strip()
+  -concate()
+  -repeat()
+
+**replace**
+  -replace()
+  -replcsall()
+  -replaceFirst()
+
+**Split&Join**
+  -split()
+  -join()
+
+  
+  -toCharArray()
+  -valueOf()
+  -matches()
+  -formatted()
+
+
+
+**String Builders**
+  
+    
