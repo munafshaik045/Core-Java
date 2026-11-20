@@ -1,0 +1,9 @@
+OOPS-Object Oriented Programming Language
+  1. Encapsulation:
+      - Encapsulation is the process of wrapping data (variables) and methods into a single unit called a class. It is also used to achieve data hiding.
+  2. Inheritance:
+      - Inheritance is the process of acquiring the properties and methods of one class into another class.
+  3. Polymorphism
+      - Polymorphism means one thing having many forms. It allows a method or object to behave in different ways.
+  4. Abstraction
+      - Abstraction is the process of hiding implementation details and showing only essential information to the user.
