@@ -1,4 +1,4 @@
-OOPS-Object Oriented Programming Language
+OOPs-Object Oriented Programming Language
   1. Encapsulation:
       - Encapsulation is the process of wrapping data (variables) and methods into a single unit called a class. It is also used to achieve data hiding.
   2. Inheritance:
@@ -7,3 +7,75 @@ OOPS-Object Oriented Programming Language
       - Polymorphism means one thing having many forms. It allows a method or object to behave in different ways.
   4. Abstraction
       - Abstraction is the process of hiding implementation details and showing only essential information to the user.
+
+
+**Inheritance in Java (OOPs)**
+Definition: Inheritance is the process of acquiring the properties (variables) and methods of one class into another class. It is used to achieve code reusability.
+- Parent Class: The class whose properties are inherited.
+- Child Class: The class that inherits the properties of another class.
+- Keyword: extends
+Types of Inheritance in Java
+There are five types of inheritance in OOPs:
+1. Single Inheritance
+    -When one child class inherits the properties and methods from only one parent class, it is called single inheritance.
+    Syntax:
+    class A {
+        // Variables and methods
+    }
+    class B extends A {
+        // Variables and methods
+    }
+
+2. Multilevel Inheritance
+    -When a class inherits from another class, and a third class inherits from that child class, it is called multilevel inheritance.
+    Syntax:
+    class A {
+        // Variables and methods
+    }
+    class B extends A {
+        // Variables and methods
+    }
+    class C extends B {
+        // Variables and methods
+    }
+
+3. Hierarchical Inheritance:
+    -When multiple child classes inherit the properties and methods from a single parent class, it is called hierarchical inheritance.
+    Syntax:
+    class A {
+        // Variables and methods
+    }
+    class B extends A {
+        // Variables and methods
+    }
+    class C extends A {
+        // Variables and methods
+    }
+
+4. Multiple Inheritance
+    -When one child class inherits the properties and methods from more than one parent class, it is called multiple inheritance.
+    Syntax (using interfaces in Java):
+    interface A {
+        // Methods
+    }
+    interface B {
+        // Methods
+    }   
+    class C implements A, B {
+        // Implement methods
+    }
+Note: Java does not support multiple inheritance through classes, but it supports multiple inheritance through interfaces.
+
+5. Hybrid Inheritance
+    -The combination of two or more types of inheritance is called hybrid inheritance.
+    Syntax (using interfaces in Java):
+    class A {
+        // Variables and methods
+    }
+    interface B {
+        // Methods
+    }
+    class C extends A implements B {
+        // Implement methods
+    }
+Note: Hybrid inheritance involving multiple parent classes is not directly supported through Java classes. It can be achieved using interfaces.
